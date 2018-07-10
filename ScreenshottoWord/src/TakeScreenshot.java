@@ -22,6 +22,7 @@ public class TakeScreenshot {
 	  File thefile = new File(System.getProperty("user.home") + "//Desktop"+"//Images"+"//"+"Screenshot"+ScreenshotName+".jpeg");
 	  thefile.mkdirs();
 	  ImageIO.write(Entire_Screen, "JPEG", thefile);
+	  
 	 
 	 }
 	 
